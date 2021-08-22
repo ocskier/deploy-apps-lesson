@@ -1,3 +1,8 @@
+:root {
+    --primary: rgba(43, 91, 186, 0.6);
+    --dark: rgb(255,255,255)
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -8,11 +13,11 @@ body {
 }
 
 a {
-    color: rgb(255,255,255) !important;
+    color: var(--dark) !important;
 }
 
 .custom-resume {
-    background-color:rgb(255, 255, 255);
+    background-color:var(--dark);
 }
 
 .custom-resume > div {
@@ -27,8 +32,12 @@ a {
     flex-basis: 60%;
 }
 
+.custom-text-cont h5 {
+    color: var(--primary) !important;
+}
+
 .custom-profile > * {
-    background-color: rgba(43, 91, 186, 0.5);
+    background-color: var(--primary);
 }
 
 .custom-profile > div:last-child span {
