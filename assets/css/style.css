@@ -7,6 +7,10 @@ body {
     background-color:rgb(14, 13, 13);
 }
 
+a {
+    color: rgb(255,255,255) !important;
+}
+
 .custom-resume {
     background-color:rgb(255, 255, 255);
 }
