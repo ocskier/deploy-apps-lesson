@@ -46,4 +46,7 @@ img + p > span {
     .custom-resume > div > div:last-child {
         order: 1;
     }
+    .custom-resume > div > div:last-child span {
+        flex-basis: 6%;
+    }
 }
