@@ -6,10 +6,13 @@ body {
     background-color:rgb(255, 255, 255);
 }
 
+.custom-resume > div {
+    min-height: 30rem;
+}
+
 .custom-text-cont:first-child {
     flex-basis: 40%;
 }
-
 
 .custom-text-cont:last-child {
     flex-basis: 60%;
@@ -20,7 +23,7 @@ body {
     padding: 2rem 1rem;
 }
 .custom-profile > * {
-    background-color: rgba(68, 106, 182, .5);
+    background-color: rgba(43, 91, 186, 0.5);
 }
 
 .custom-profile p {
@@ -29,4 +32,24 @@ body {
 
 .custom-profile p, .custom-profile span {
     color: white;
+}
+.custom-profile > :last-child {
+    background-color: rgba(68, 106, 182, .5);
+}
+
+img + p > span {
+    display: block;
+}
+
+i {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 576px){
+    .custom-resume > div > div:first-child {
+        order: 2;
+    }
+    .custom-resume > div > div:last-child {
+        order: 1;
+    }
 }
