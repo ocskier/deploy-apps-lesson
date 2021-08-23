@@ -1,6 +1,7 @@
 :root {
     --primary: rgba(43, 91, 186, 0.6);
-    --dark: rgb(255,255,255)
+    --light: rgb(255,255,255);
+    --greyish: rgb(116 121 129 / 80%);
 }
 
 html, body {
@@ -13,11 +14,11 @@ body {
 }
 
 a {
-    color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .custom-resume {
-    background-color:var(--dark);
+    background-color:var(--light);
 }
 
 .custom-resume > div {
@@ -36,6 +37,13 @@ a {
     color: var(--primary) !important;
 }
 
+.custom-text-cont i {
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--light);
+}
+
 .custom-profile > * {
     background-color: var(--primary);
 }
@@ -48,8 +56,22 @@ a {
     background-color: rgba(68, 106, 182, .5);
 }
 
+.custom-city {
+    color: var(--greyish);
+}
+
+.custom-title {
+    font-weight: 600;
+}
+
 img + p > span {
     display: block;
+}
+
+@media screen and (max-width: 992px){
+    .custom-text-cont p {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 768px){
