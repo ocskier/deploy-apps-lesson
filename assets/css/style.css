@@ -64,6 +64,10 @@ a {
     font-weight: 600;
 }
 
+.custom-title span {
+    color: var(--greyish);
+}
+
 img + p > span {
     display: block;
 }
