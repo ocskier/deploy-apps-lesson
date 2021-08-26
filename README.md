@@ -10,13 +10,13 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
   
     * Copy the https URL from your FORKED repo
 
-    * Navigate to either a standalone Git Bash terminal or the integrated terminal in VS Code on your local machine and `cd` to a place you wish to clone this activity to work on it (either your personal coding development folder or /Desktop on MacOS or /OneDrive/Desktop on Win,  **NOT** ~ )
+    * Navigate to either a standalone Git Bash terminal or the integrated terminal in VS Code on your local machine and `cd` to a place you wish to clone this activity to work on it (either your personal coding development folder or `Desktop` on MacOS or `OneDrive/Desktop` on Win, **NOT** in ~ )
   
     * Once where you need to be in bash, run `git clone ` followed by the URL you copied from your forked copy of this github repository
 
     * In VSCode, select `File` in the top right, and select `Open Folder` then find the folder you cloned named `deploy-apps-lesson` and open it, **OR**
   
-    * alternatively you can run in the terminal `cd deploy-apps-lesson` and run `code -a .` to directly open the folder in the window
+    * Alternatively you can run in the terminal `cd deploy-apps-lesson` and run `code -a .` to directly open the folder in the window
   
     * Familiarize yourself with the code first in `index.html`. 
   
@@ -35,9 +35,10 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
     git push origin main
     ```
 
-2.  Deploy your app on GH-Pages by selecting on your Github the main branch under Settings --> Pages and clicking Save - navigate to the link provided, **OR**
+2.  Deploy your app on GH-Pages by selecting on your Github the main branch under `Settings --> Pages` and then clicking `Save` - navigate to the link provided, **OR**
+<br>
 3. Navigate to [Netlify](https://app.netlify.com) sign up for an account by authenticating thru the Github option, and follow these directions [step-by-step-guide-deploying](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
-
+<br>
 4. When you are finished with the activity, drop a url link to your deployed app in the Chat or in the thread on our student Slack channel!
-
+<br>
 5. At the end of the allotted time, we will have a few learners share their deployed apps. You will be expected to raise your hand and guide the class to your deployed app.
