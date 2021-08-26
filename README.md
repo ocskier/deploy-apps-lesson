@@ -31,7 +31,7 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
     * Go back to the terminal and run 
     ```
     git add .
-    git commit -m "Refactored resume page and stylesheet"
+    git commit -m "Refactors resume page and stylesheet"
     git push origin main
     ```
 
