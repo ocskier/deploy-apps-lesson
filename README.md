@@ -38,6 +38,6 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
 2.  Deploy your app on GH-Pages by selecting on your Github the main branch under Settings --> Pages and clicking Save - navigate to the link provided, **OR**
 3. Navigate to [Netlify](https://app.netlify.com) sign up for an account by authenticating thru the Github option, and follow these directions [step-by-step-guide-deploying](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
 
-4. When you are finished with the activity, drop a url link to your deployed app in the Slack channel or in the thread on our student Slack channel!
+4. When you are finished with the activity, drop a url link to your deployed app in the Chat or in the thread on our student Slack channel!
 
 5. At the end of the allotted time, we will have a few learners share their deployed apps. You will be expected to raise your hand and guide the class to your deployed app.
