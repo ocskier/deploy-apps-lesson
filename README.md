@@ -10,7 +10,7 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
   
     * Copy the https URL from your FORKED repo
 
-    * Navigate to either a standalone Git Bash terminal or the integrated terminal in VS Code on your local machine and `cd` to a place you wish to clone this activity to work on it (either your personal coding development folder or /Desktop on MacOS or /OneDrive/Desktop on Win,  **NOT ~**)
+    * Navigate to either a standalone Git Bash terminal or the integrated terminal in VS Code on your local machine and `cd` to a place you wish to clone this activity to work on it (either your personal coding development folder or /Desktop on MacOS or /OneDrive/Desktop on Win,  **NOT** ~ )
   
     * Once where you need to be in bash, run `git clone ` followed by the URL you copied from your forked copy of this github repository
 
