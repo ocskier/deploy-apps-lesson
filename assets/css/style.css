@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 
 .custom-resume {
     background-color:var(--light);
-}
+   }
 
 .custom-resume > div {
     min-height: 30rem;
@@ -51,6 +51,7 @@ a {
 
 .custom-profile > div:last-child span {
     flex-basis: 15%;
+    color: white;
 }
 
 .custom-profile > :last-child {
@@ -66,11 +67,13 @@ a {
 }
 
 .custom-title span {
-    color: var(--greyish);
+    color:var(--greyish);
 }
 
 img + p > span {
     display: block;
+    color: black;
+    font: 20px;
 }
 
 /* Explain in comments below what the media queries are doing in regards to different screen sizes */
