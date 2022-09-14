@@ -13,10 +13,12 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
     * Navigate to either a standalone Git Bash terminal or the integrated terminal in VS Code on your local machine and `cd` to a place you wish to clone this activity to work on it (either your personal coding development folder or `Desktop` on MacOS or `OneDrive/Desktop` on Win, **NOT** in ~ )
   
     * Once where you need to be in bash, run `git clone ` followed by the URL you copied from your forked copy of this github repository
+    
+    * Make sure and run `cd deploy-apps-lesson` to move into the repository folder
 
     * In VSCode, select `File` in the top right, and select `Open Folder` then find the folder you cloned named `deploy-apps-lesson` and open it, **OR**
   
-    * Alternatively you can run in the terminal `cd deploy-apps-lesson` and run `code -a .` to directly open the folder in the window
+    * Alternatively after running `cd deploy-apps-lesson` in the terminal run `code -a .` to directly open the folder in the window
   
     * Familiarize yourself with the code first in `index.html`. 
   
@@ -28,7 +30,7 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
   
     * Save all files that are marked as having Unsaved changes
   
-    * Go back to the terminal and run 
+    * Go back to the terminal make sure you are inside `deploy-apps-lesson` directory then run 
     ```
     git add .
     git commit -m "Refactors resume page and stylesheet"
