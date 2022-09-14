@@ -37,7 +37,7 @@ A lesson for learning to build apps and deploy to a service like GH Pages or Net
     git push origin main
     ```
 
-2.  Deploy your app on GH-Pages by selecting on your Github the main branch under `Settings --> Pages` and then clicking `Save` - navigate to the link provided, **OR**
+2.  Deploy your app on GH-Pages by selecting on your Github the main branch under `Settings --> Pages`, under Branch change the None dropdown to the `main` branch, then click `Save` - navigate to the link provided, **OR**
 
 3. Navigate to [Netlify](https://app.netlify.com) sign up for an account by authenticating thru the Github option, and follow these directions [step-by-step-guide-deploying](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
 
